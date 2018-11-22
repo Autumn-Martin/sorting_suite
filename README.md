@@ -7,11 +7,11 @@ This project is a challenge to implement one of the four following fundamental a
 The goal is to practice testing & writing JavaScript.
 
 ## Expectations
-[] Choose **one** of the fundamental sorting algorithms to complete
+[X] Choose **one** of the fundamental sorting algorithms to complete
 
-[] Use Node.js to run your code
+[X] Use Node.js to run your code
 
-[] Use Mocha/Chai to run your tests
+[X] Use Mocha/Chai to run your tests
 
 ## Getting Started
 This project uses Node.js, which can be downloaded [here](https://nodejs.org/en/).
