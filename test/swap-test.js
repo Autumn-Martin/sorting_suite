@@ -1,4 +1,6 @@
-const assert = require('chai').assert;
+const chai = require('chai')
+const assert = chai.assert;
+const expect = chai.expect;
 const swapNumbers = require('../swap');
 
 describe('swap functionality', () => {
@@ -7,5 +9,8 @@ describe('swap functionality', () => {
       const unsortedArray = [5, 0, 1, 3, 4, 2];
       assert.deepEqual(swapNumbers(unsortedArray, 0, 1), [0, 5, 1, 3, 4, 2])
     });
+    it('is a function', () => {
+      expect(swapNumbers).to.be.a('Function');
+    })
   });
 });
