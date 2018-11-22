@@ -19,7 +19,6 @@ function bubbleSort(unsortedArray) {
         console.log(unsortedArray)
         sorted = false;
       }
-      console.log(currentIndex)
     }
     var runNum = typeof runNum == "undefined" ? runNum = 1 : runNum = runNum;
     var sortNum = typeof sortNum == "undefined" ? sortNum = 5 : sortNum = sortNum
