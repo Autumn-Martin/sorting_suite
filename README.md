@@ -33,10 +33,11 @@ The following output will appear:
 
 Perform the following in the CLI to run the test suite:
 `$ mocha test`
--------------------------------------------------------------------
-# [Turing Lesson on Sorting Algorithms: Bubble Sort](http://frontend.turing.io/projects/sorting-suite.html)
 
-## The Algorithm
+-------------------------------------------------------------------
+# [Turing Lesson on Sorting Algorithms](http://frontend.turing.io/projects/sorting-suite.html)
+
+## Bubble Sort
 You can see a [graphical run of the algorithm here](https://www.youtube.com/watch?v=6eA3FrFbO8Q).
 
 For a high level understanding check out the [wikipedia article](https://en.wikipedia.org/wiki/Bubble_sort).
