@@ -20,9 +20,5 @@ describe('bubble sort functionality', () => {
       expect(bubbleSort(unsortedArray)).to.be.an('array');
       assert.deepEqual(bubbleSort(unsortedArray), [-9, 0, 32, 42, 70]);
     });
-    
-    it('displays expected output', () => {
-
-    })
   });
 });
