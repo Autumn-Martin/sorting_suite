@@ -7,30 +7,26 @@ const sortedArray = bubbleSort(unsortedArray);
 function bubbleSort(unsortedArray) {
   let sorted = false;
 
-  console.log('run 1 - sort 5')
+  console.log(unsortedArray)
+  console.log(`Begin sorting:`)
+
   while(!sorted) {
     let lastIndexToSort = unsortedArray.length - 1;
 
     sorted = true;
     for(let currentIndex = 0; currentIndex < lastIndexToSort; currentIndex++) {
       let nextIndex = currentIndex + 1;
+
       if (unsortedArray[currentIndex] > unsortedArray[nextIndex]) {
         swapNumbers(unsortedArray, currentIndex, nextIndex)
         console.log(unsortedArray)
         sorted = false;
       }
     }
-    var runNum = typeof runNum == "undefined" ? runNum = 1 : runNum = runNum;
-    var sortNum = typeof sortNum == "undefined" ? sortNum = 5 : sortNum = sortNum
-    sortNum -= 1
-    runNum += 1
-    if (sortNum < 0) {
-      console.log('runs finished')
-    } else {
-      console.log(`run ${runNum} - sort ${sortNum}`)
-    }
+    var sortedIndex = typeof sortedIndex == "undefined" ? sortedIndex = lastIndexToSort : sortedIndex -= 1;
+    console.log(`Index ${sortedIndex} is sorted.`)
   }
-  console.log("bubble sort complete")
+  console.log("Bubble sort complete.")
   return unsortedArray
 }
 
