@@ -8,6 +8,9 @@ The goal is to practice testing & writing JavaScript.
 
 I chose to implement bubble sort, and sort from lowest to highest (left to right). Bubble sort is a sorting algorithm that repeatedly steps through a list, swaps adjacent pairs as it finds them out of order, and has the visual effect of bubbling larger elements to the top of a list.  
 
+#### Tech Stack
+JavaScript, Node.js, Mocha, Chai
+
 ## Expectations
 [X] Choose **one** of the fundamental sorting algorithms to complete
 
@@ -31,9 +34,7 @@ The following output will appear:
 Perform the following in the CLI to run the test suite:
 `$ mocha test`
 -------------------------------------------------------------------
-# [Turing Lesson on Sorting Algorithms](http://frontend.turing.io/projects/sorting-suite.html)
-
-# Bubble Sort
+# [Turing Lesson on Sorting Algorithms: Bubble Sort](http://frontend.turing.io/projects/sorting-suite.html)
 
 ## The Algorithm
 You can see a [graphical run of the algorithm here](https://www.youtube.com/watch?v=6eA3FrFbO8Q).
