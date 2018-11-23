@@ -9,7 +9,7 @@ The goal is to practice testing & writing JavaScript.
 I chose to implement bubble sort, and sort from lowest to highest (left to right). Bubble sort is a sorting algorithm that repeatedly steps through a list, swaps adjacent pairs as it finds them out of order, and has the visual effect of bubbling larger elements to the top of a list.  
 
 #### Tech Stack
-JavaScript, Node.js, Mocha, Chai
+JavaScript, Node.js, Mocha, Chai, [Test-Console](https://www.npmjs.com/package/test-console), [Chalk](https://github.com/chalk/chalk)
 
 ## Expectations
 [X] Choose **one** of the fundamental sorting algorithms to complete
@@ -26,7 +26,7 @@ Perform the following in the CLI to run the program:
 
 The following output will appear: 
 
-![](https://user-images.githubusercontent.com/36902512/48919361-35f2e680-ee47-11e8-88d1-d22ee8e94a74.png)
+![](https://user-images.githubusercontent.com/36902512/48925316-48851400-ee77-11e8-911e-27ad79ddb5d4.png)
 
 ## Testing
 [Mocha](https://mochajs.org/), a JavaScript test framework, runs this project's test suite. Mocha can be installed via the CLI: `$ npm install mocha -g`. This project's test suite also requires [Chai](https://www.chaijs.com/), a JavaScript assertion library, which has been installed via the CLI (`$ npm install chai`).
