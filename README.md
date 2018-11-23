@@ -24,7 +24,7 @@ This project uses Node.js, which can be downloaded [here](https://nodejs.org/en/
 Perform the following in the CLI to run the program:
 `$ node bubble-sort.js`
 
-The following output will appear: 
+Although the only the sorted array will be returned, I also included console messages to display the transformation of the array throughout the function. The following output will appear: 
 
 ![](https://user-images.githubusercontent.com/36902512/48925316-48851400-ee77-11e8-911e-27ad79ddb5d4.png)
 
