@@ -5,6 +5,6 @@ function swap(unsortedArray, currentIndex, nextIndex) {
 
     unsortedArray[nextIndex] = unsortedArray[currentIndex];
     unsortedArray[currentIndex] = briefHolder;
-    console.log("hi")
+
     return unsortedArray;
 }
