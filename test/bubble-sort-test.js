@@ -27,12 +27,12 @@ describe('bubble sort functionality', () => {
       expect(bubbleSort).to.be.a('Function');
     });
     it('displays expected console output', () => {
-      assert.deepInclude(output, 'Begin sorting:\n');
+      assert.deepInclude(output, '\u001b[35mBegin sorting:\u001b[39m\n');
       assert.deepInclude(output, 'Index 5 is sorted.\n')
       assert.deepInclude(output, 'Index 4 is sorted.\n')
       assert.deepInclude(output, 'Index 3 is sorted.\n')
       assert.deepInclude(output, 'Index 2 is sorted.\n')
-      assert.deepInclude(output, 'Bubble sort complete.\n')
+      assert.deepInclude(output, '\u001b[32mBubble sort complete.\u001b[39m\n')
     });
   });
 });

@@ -1,5 +1,6 @@
 module.exports = bubbleSort
 
+const chalk = require('chalk')
 const swapNumbers = require('./swap');
 const unsortedArray = [5, 4, 3, 2, 1, 0];
 const sortedArray = bubbleSort(unsortedArray);
@@ -8,7 +9,7 @@ function bubbleSort(unsortedArray) {
   let sorted = false;
 
   console.log(unsortedArray)
-  console.log(`Begin sorting:`)
+  console.log(chalk.magenta(`Begin sorting:`))
 
   while(!sorted) {
     let lastIndexToSort = unsortedArray.length - 1;
@@ -23,10 +24,10 @@ function bubbleSort(unsortedArray) {
         sorted = false;
       }
     }
-    var sortedIndex = typeof sortedIndex == "undefined" ? sortedIndex = lastIndexToSort : sortedIndex -= 1;
+    var sortedIndex = typeof sortedIndex == 'undefined' ? sortedIndex = lastIndexToSort : sortedIndex -= 1;
     console.log(`Index ${sortedIndex} is sorted.`)
   }
-  console.log("Bubble sort complete.")
+  console.log(chalk.green('Bubble sort complete.'))
   return unsortedArray
 }
 
