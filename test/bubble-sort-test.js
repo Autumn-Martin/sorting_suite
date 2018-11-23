@@ -1,6 +1,8 @@
 const assert = require('chai').assert;
 const expect = require('chai').expect;
 const bubbleSort = require('../bubble-sort');
+const stdout = require('test-console').stdout;
+const output = stdout.inspectSync(() => {bubbleSort([5, 0, 1, 3, 4, 2])})
 
 describe('bubble sort functionality', () => {
   context('bubbleSort function', () => {
@@ -23,5 +25,8 @@ describe('bubble sort functionality', () => {
     it('is a function', () => {
       expect(bubbleSort).to.be.a('Function');
     });
+    it('displays expected console output', () => {
+      assert.deepInclude(output, "Begin sorting:\n");
+    })
   });
 });
